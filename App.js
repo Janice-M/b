@@ -2,20 +2,21 @@ import React from 'react';
 import Constants from 'expo-constants'; 
 import { StyleSheet, Text, View } from 'react-native';
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+const Home=()=>{ 
+  return ( 
+      <Text style={{ 
+                    marginTop:300, 
+                    marginLeft:10}}> 
+          Baby Bushra 
+      </Text> 
+  ) 
+} 
+  
+  
+export default function App() { 
+  return ( 
+    <View> 
+          <Home/> 
+    </View> 
+  ); 
+} 
